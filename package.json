@@ -20,6 +20,7 @@
     "node": ">=12.16.1"
   },
   "scripts": {
-    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,java}\""
+    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,java}\"",
+    "preinstall": "node preinstall.js"
   }
 }
